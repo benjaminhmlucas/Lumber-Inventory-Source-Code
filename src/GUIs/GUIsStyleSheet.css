@@ -1,0 +1,79 @@
+/*
+This program was designed by Benjamin Henry Malone Lucas for use by Ashley River Lumber
+*/
+/* 
+    Created on : Aug 25, 2019, 5:44:46 PM
+    Author     : Computebot
+*/
+#root{
+    -fx-background-image: url("/GUIs/flooring1.jpg");
+    -fx-background-repeat:space;
+    -fx-background-size:auto;
+    -fx-background-position: center;
+}
+#rootLaunchWindow{
+    -fx-padding:20px;
+    -fx-background-image: url("/GUIs/lumberjacks1.jpg");
+    -fx-background-repeat:space;
+    -fx-background-size:auto;
+    -fx-background-position: center;
+    
+}
+
+#logoBox{
+    -fx-background-image: url("/GUIs/ARLogo.png");
+    -fx-background-repeat:no-repeat;
+    -fx-background-size:contain;
+    -fx-background-position: center;
+    -fx-border-color:black;
+    -fx-border-radius: 1px;
+    -fx-border-style: solid;
+}
+
+#inStockSlabsWindow,#soldSlabsWindow,#speciesWindow{
+    -fx-border-color:black;
+    -fx-border-radius: 1px;
+    -fx-border-style: solid;    
+}
+.tab-pane *.tab-header-background {
+    -fx-background-image: url("/GUIs/lumberjacks1.");
+    -fx-background-repeat:space;
+    -fx-background-size:auto;
+    -fx-background-position: center center;
+    -fx-border-color: rgba(0,0,0, 0.7);
+    -fx-background-radius: 1px;
+}
+
+#vBoxButtons,#dataInputOuterContainer,#InStockSellSlabColumn,#inStockFirstDataInputBox,#dataInputInnerContainer,#innerLaunchPane{
+    -fx-background-color: rgba(255,255,255, 0.7);
+    -fx-padding: 10px;
+    -fx-border-color: rgba(0,0,0, 0.7);
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+}
+
+#passwordGridPane,#exportGridPane,#importGridPane,#setDatabaseGridPane,#vboxUtilitiesRoot{
+    -fx-background-color: rgba(255,255,255, 0.9);
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+    -fx-border-color: rgba(0,0,0, 0.7);
+    -fx-border-radius: 3px;
+    -fx-background-radius: 3px;
+    -fx-padding:10px;
+}
+
+#innerLaunchPane,#titleText{
+    -fx-padding:20px;
+}
+
+#titleText{
+    -fx-text-alignment:center;
+    -fx-font-size:16px;
+    -fx-font-family: Serif;
+}
+
+#hBoxTabButtons,#dataInputColumn,#InStockSellSlabColumn,#dataInputOuterContainer{
+    -fx-padding: 10px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
