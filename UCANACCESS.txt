@@ -1,2 +1,2 @@
 Connection driver: UCANACCESS
-Necessary Jar Files attached.  Please add to project to use interface.
+Necessary Jar Files attached.  Please add ALL .jar files to project to use interface.
